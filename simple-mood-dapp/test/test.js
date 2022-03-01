@@ -7,7 +7,7 @@ contract('Mood Contract', function (accounts) {
     it("Contract deployment", function () {
       return Mood.deployed().then(function (instance) {
         moodInstance = instance;
-        assert(moodInstance !== undefined, 'Ballot contract should be defined');
+        assert(moodInstance !== undefined, 'Mood contract should be defined');
       });
     });
 })
