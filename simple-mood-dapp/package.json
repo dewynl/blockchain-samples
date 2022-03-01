@@ -1,0 +1,21 @@
+{
+  "name": "simple-dapp",
+  "version": "1.0.0",
+  "description": "Simple dapp to test smart contracts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "dapp",
+    "blockchain"
+  ],
+  "author": "Dewyn Liriano",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "lite-server": "^2.6.1",
+    "truffle": "^5.5.2"
+  }
+}

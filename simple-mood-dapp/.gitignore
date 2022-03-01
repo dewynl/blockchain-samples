@@ -1,0 +1,7 @@
+.mnemonic
+.rinkedby-api
+.ropsten-api
+.contract-address
+.DS_Store
+build/
+node_modules/
