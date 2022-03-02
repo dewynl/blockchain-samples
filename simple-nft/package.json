@@ -1,0 +1,24 @@
+{
+  "name": "simple-nft",
+  "version": "1.0.0",
+  "description": "Simple project to create an nft in ethereum's blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dewyn Liriano",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.9.0",
+    "truffle": "^5.5.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4"
+  }
+}
