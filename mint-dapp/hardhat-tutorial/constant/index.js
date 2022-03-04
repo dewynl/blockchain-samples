@@ -1,0 +1,4 @@
+const WHITELIST_CONTRACT_ADDRESS = "0x1Ef40Ab29A16cC336115712319Fe8B03b0cc6DD7";
+const METADATA_URL = "https://mint-dapp-ten.vercel.app//api/";
+
+module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };
